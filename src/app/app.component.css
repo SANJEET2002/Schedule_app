@@ -1,0 +1,21 @@
+#main {
+  color: red;
+  background-color: black;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+#main .header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 5px 5px 10px white;
+}
+
+#main .sch {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
