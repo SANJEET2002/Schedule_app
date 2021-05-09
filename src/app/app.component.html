@@ -3,7 +3,7 @@
     <p>{{Current_date | date:'short'}}</p>
   </div>
   <div class="option">
-  <label for="days" >Select Day</label>
+  <label for="days">Day</label>
   <select name="days" id="days" [(ngModel)]="day" (click)="getSch(day)">
     <option value="Monday">Monday</option>
     <option value="Tuesday">Tuesday</option>
@@ -11,10 +11,11 @@
     <option value="Thrusday">Thrusday</option>
     <option value="Friday">Friday</option>
   </select>
+  <button class="btn-1" (click)="getSch(day)">Done</button>
 </div>
   <div class="sch">
    
-    <app-container  *ngFor=" let lecture of lectures"  [name]="lecture"  [newTime]="sch[0].time">
+    <app-container  *ngFor=" let lecture of lectures"  [name]="lecture">
 
     </app-container> 
   </div>

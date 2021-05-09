@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'schedule-app';
-  day = ""; 
+  day = "Monday"; 
   public Current_date = Date.now(); 
   lectures : any[] = [];
   sch : any[] = [{
