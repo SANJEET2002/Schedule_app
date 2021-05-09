@@ -3,6 +3,7 @@
     <p>{{Current_date | date:'short'}}</p>
   </div>
   <div class="option">
+<<<<<<< HEAD
   <label for="days">Day</label>
   <select name="days" id="days" [(ngModel)]="day" (click)="getSch(day)">
     <option value="Monday">Monday</option>
@@ -16,6 +17,21 @@
   <div class="sch">
    
     <app-container  *ngFor=" let lecture of lectures"  [name]="lecture">
+=======
+  <label for="days" >Day</label>
+  <select name="days" id="days" [(ngModel)]="data" (click)="getDay()">
+    <option value="monday">Monday</option>
+    <option value="tuesday">Tuesday</option>
+    <option value="wednesday">Wednesday</option>
+    <option value="thrusday">Thrusday</option>
+    <option value="friday">Friday</option>
+  </select>
+  <button (click)="getDay()" >Done</button>
+</div>
+  <div class="sch">
+   
+    <app-container  *ngFor=" let item of result"  [teacher]="item.teacher" [class]="item.class" [time]="item.time" [link]="item.link">
+>>>>>>> adding_option
 
     </app-container> 
   </div>

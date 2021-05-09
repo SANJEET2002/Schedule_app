@@ -6,6 +6,7 @@
   background: white;
   border-radius: 1rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -15,4 +16,7 @@ p{
   color: black;
   z-index: 4545;
   font-size: 1rem;
+  display: block;
 }
+
+

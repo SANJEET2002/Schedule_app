@@ -33,9 +33,15 @@ p {
 select {
   border-radius: 0.4rem;
   margin: 0.4rem;
+<<<<<<< HEAD
   min-width: 150px;
   background: white;
   padding: 0.4rem;
+=======
+  min-width: 130px;
+  background:white;
+  padding: 0.4rem ;
+>>>>>>> adding_option
   font-size: 1rem;
 }
 
@@ -49,8 +55,22 @@ h2 {
   color: white;
 }
 
+<<<<<<< HEAD
 label {
   font-size: 2rem;
+=======
+label{
+  font-size: 1.5rem;
+}
+
+button {
+  min-height: 2rem;
+  width:4rem;
+  font-size: 1.2rem;
+  border: none;
+  box-shadow: 2px 2px 6px aqua;
+  border-radius: 0.4rem;
+>>>>>>> adding_option
 }
 
 .btn-1 {
