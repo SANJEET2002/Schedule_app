@@ -1,6 +1,18 @@
 .box {
-  min-height: 200px;
-  width: 350px;
+  min-height: 150px;
+  width: 330px;
   margin: 10px;
-  background: crimson;
+  box-shadow: 5px 5px 15px aqua;
+  background: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+p{
+  color: black;
+  z-index: 4545;
+  font-size: 1rem;
 }

@@ -1,10 +1,22 @@
 <div id="main">
-  <div class="header">
-    logo Here
+  <div class="header" >
+    <p>{{Current_date | date:'short'}}</p>
   </div>
-  <div class="sch">
-    <app-container></app-container>
-  </div>
-  <input [(ngModel)]="day" type="text">
-  <button (click)="getSch(day)">Select Date</button>
+  <div class="option">
+  <label for="days" >Select Day</label>
+  <select name="days" id="days" [(ngModel)]="day" (click)="getSch(day)">
+    <option value="Monday">Monday</option>
+    <option value="Tuesday">Tuesday</option>
+    <option value="Wednesday">Wednesday</option>
+    <option value="Thrusday">Thrusday</option>
+    <option value="Friday">Friday</option>
+  </select>
 </div>
+  <div class="sch">
+   
+    <app-container  *ngFor=" let lecture of lectures"  [name]="lecture"  [newTime]="sch[0].time">
+
+    </app-container> 
+  </div>
+  
+</div> 

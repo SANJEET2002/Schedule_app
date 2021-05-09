@@ -6,16 +6,48 @@
 }
 
 #main .header {
+  min-width: 100vw;
+  height: 100px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  box-shadow: 5px 5px 10px white;
+  box-shadow: 5px 5px 20px white;
+}
+
+p{
+  font-size: 2rem;
+}
+
+.option{
+  min-height: 25px;
+  margin: 2rem;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option option , select {
+  border-radius: 0.4rem;
+  margin: 0.4rem;
+  min-width: 150px;
+  background:white;
+  padding: 0.4rem ;
+  font-size: 1rem;
 }
 
 #main .sch {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+h2{
+  color: white;
+}
+
+label{
+  font-size: 2rem;
 }
