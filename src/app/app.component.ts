@@ -7,7 +7,6 @@ import{StoreService} from './services/store.service'
 })
 export class AppComponent {
   title = 'schedule-app';
-<<<<<<< HEAD
   day = "Monday"; 
   public Current_date = Date.now(); 
   lectures : any[] = [];
@@ -35,7 +34,6 @@ export class AppComponent {
 ];
 =======
 public data = '';
->>>>>>> adding_option
 
   public monday:any[] = [];
   public tuesday:any[] = [];
