@@ -32,7 +32,6 @@ export class AppComponent {
     ,'time' : ['9:30 - 10:20 AM','10:50 - 11:40 AM','12:10 - 12:50 PM','2:00 - 4:00 PM'],
   }
 ];
-=======
 public data = '';
 
   public monday:any[] = [];
